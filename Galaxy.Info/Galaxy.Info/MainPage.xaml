@@ -2,16 +2,17 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Galaxy.Info"
-            x:Class="Galaxy.Info.MainPage">
+            x:Class="Galaxy.Info.MainPage"
+             BackgroundColor="Black">
 
    
 
 
-
+            <!--Setting up Stack Layout to put Grid into-->
         <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
-
+                <!--Adding a Top Image above the Grid-->
             <Image Aspect="Fill" Source="http://www.seasky.org/solar-system/assets/animations/solar_system_menu.jpg" x:Name="MainPageIMG" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" ></Image>
-
+                <!--Creating the Overall Grid-->
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
 
@@ -19,7 +20,7 @@
 
 
 
-
+                <!--Creating Rows in the Grid-->
                 <Grid.RowDefinitions>
 
                     <RowDefinition Height="2*"/>
@@ -33,7 +34,7 @@
                 </Grid.RowDefinitions>
 
 
-
+                <!--Creating Colums in the Grid-->
                 <Grid.ColumnDefinitions>
 
                     <ColumnDefinition Width="2*"/>
@@ -49,32 +50,32 @@
                 </Grid.ColumnDefinitions>
 
 
-
-                <Button BackgroundColor="Black" Grid.Column="0" Grid.Row="0" />
-
-                <Button BackgroundColor="Red" Grid.Column="1" Grid.Row="0" />
-
-                <Button BackgroundColor="Green" Grid.Column="2" Grid.Row="0" />
-
-
-
-
-
-                <Button BackgroundColor="Red" Grid.Column="0" Grid.Row="1" />
-
-                <Button BackgroundColor="Black" Grid.Column="1" Grid.Row="1" />
-
-                <Button BackgroundColor="BlanchedAlmond" Grid.Column="2" Grid.Row="1" />
+              <!--Mercury-->
+            <Image Source="https://i.imgur.com/38kL4m7.png" Grid.Column="0" Grid.Row="0" />
+              <!--Venus-->
+            <Image Source="https://i.imgur.com/HE7aQh7.png" Grid.Column="1" Grid.Row="0" />
+              <!--Earth-->
+            <Image Source="https://i.imgur.com/uqH2gNq.png" Grid.Column="2" Grid.Row="0" />
 
 
 
 
+              <!--Mars-->
+            <Image Source="https://i.imgur.com/vTayPpF.png" Grid.Column="0" Grid.Row="1" />
+              <!--Jupiter-->
+            <Image Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" />
+              <!--Saturn-->
+            <Image Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" />
 
-                <Button BackgroundColor="Black" Grid.Column="0" Grid.Row="2" />
 
-                <Button BackgroundColor="Red" Grid.Column="1" Grid.Row="2" />
 
-                <Button BackgroundColor="Green" Grid.Column="2" Grid.Row="2" />
+
+              <!--Uranus-->
+            <Image Source="https://i.imgur.com/mWV5UAG.png" Grid.Column="0" Grid.Row="2" />
+              <!--Neptune-->
+            <Image Source="https://i.imgur.com/7kxXDLm.png" Grid.Column="1" Grid.Row="2" />
+       s       <!--More Button/Image-->
+            <Image Source="https://i.imgur.com/OqVhArZ.png" Grid.Column="2" Grid.Row="2" />
 
 
 
