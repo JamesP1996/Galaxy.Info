@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Info.Android", "Gala
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Info.UWP", "Galaxy.Info\Galaxy.Info.UWP\Galaxy.Info.UWP.csproj", "{DF8ACEFF-5A6D-4AD9-9574-AC7B34137B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Info", "Galaxy.Info\Galaxy.Info\Galaxy.Info.csproj", "{DB8954B1-4385-4551-9DFE-C8BD678BDB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Galaxy.Info", "Galaxy.Info\Galaxy.Info\Galaxy.Info.csproj", "{DB8954B1-4385-4551-9DFE-C8BD678BDB75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

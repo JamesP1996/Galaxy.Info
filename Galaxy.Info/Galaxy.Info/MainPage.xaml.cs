@@ -12,6 +12,14 @@ namespace Galaxy.Info
         public MainPage()
         {
             InitializeComponent();
+
+           
+
+
         }
-    }
-}
+
+        private void ToolbarItem_Activated(object sender, EventArgs e)
+        {
+
+        }
+    }}
