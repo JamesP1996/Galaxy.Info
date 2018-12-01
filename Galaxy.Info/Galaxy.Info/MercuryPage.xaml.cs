@@ -7,11 +7,15 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace Galaxy.Info
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class MercuryPage : ContentPage
 	{
+
+
+
 		public MercuryPage ()
 		{
 			InitializeComponent ();
@@ -26,6 +30,14 @@ namespace Galaxy.Info
         private void BackBt_Clicked(object sender, EventArgs e)
         {
             App.Current.MainPage = new MainPage();
+        }
+
+
+        private void FindMoreInfoBT(object sender, EventArgs e)
+        {
+
+            var url = "https://en.wikipedia.org/wiki/Mercury";
+            Device.OpenUri(new Uri(url));
         }
     }
 }

@@ -4,13 +4,20 @@
              x:Class="Galaxy.Info.MercuryPage"
              BackgroundColor="Black" >
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-            
+        <ScrollView Orientation="Vertical">
+            <StackLayout Orientation="Vertical">
+
+               
+
+                <!--Title-->
                 <Label Text="Mercury"
                 VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" FontSize="24" TextColor="CadetBlue" />
-
+                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
+                <!--Mercury Image-->
+                <Image Source="https://i.imgur.com/QeOTC6i.jpg" 
+                       Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+                
+                <!--Below are all different facts about Mercury-->
                 <Label Text="Diameter: 4,879 km"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
@@ -23,17 +30,36 @@
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
 
-                <Label Text="Moons:	None"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
-
                 <Label Text="Orbit Distance: 57,909,227 km (0.39 AU)"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Image Source="https://i.imgur.com/QeOTC6i.jpg" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+                <Label Text="Orbit Period:	88 days"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Button Text="Go Back To Main Page" x:Name="BackBt" Clicked="BackBt_Clicked"/>
+                <Label Text="Surface Temperature: -173 to 427°C"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="First Record: 14th century BC"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Recorded By: Assyrian astronomers"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Mercury Size Compared to Earth" VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="DeepSkyBlue" />
+
+                <Image Source="https://i.imgur.com/203UGFq.png" Aspect="AspectFit"></Image>
+
+                <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+
+                <Button Text="Go Back To Main Page"  x:Name="BackBt" Clicked="BackBt_Clicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue"
+                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
                 
             </StackLayout>
         </ScrollView>
