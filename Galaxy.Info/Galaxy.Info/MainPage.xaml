@@ -5,10 +5,10 @@
             x:Class="Galaxy.Info.MainPage"
              BackgroundColor="Black">
 
-   
 
 
-            <!--Setting up Stack Layout to put Grid into-->
+    <ContentPage.Content>
+        <!--Setting up Stack Layout to put Grid into-->
         <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
                 <!--Adding a Top Image above the Grid-->
             <Image Aspect="Fill" Source="http://www.seasky.org/solar-system/assets/animations/solar_system_menu.jpg" x:Name="MainPageIMG" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" ></Image>
@@ -51,40 +51,37 @@
 
 
               <!--Mercury-->
-            <Image Source="https://i.imgur.com/38kL4m7.png" Grid.Column="0" Grid.Row="0" />
-              <!--Venus-->
-            <Image Source="https://i.imgur.com/HE7aQh7.png" Grid.Column="1" Grid.Row="0" />
+            <Image x:Name="MercuryBT"  Source="https://i.imgur.com/38kL4m7.png" Grid.Column="0" Grid.Row="0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="MercuryTapped" />
+                     </Image.GestureRecognizers>
+</Image>
+
+                    <!--Venus-->
+            <Image x:Name="VenusBT" Source="https://i.imgur.com/HE7aQh7.png" Grid.Column="1" Grid.Row="0" />
               <!--Earth-->
-            <Image Source="https://i.imgur.com/uqH2gNq.png" Grid.Column="2" Grid.Row="0" />
+            <Image x:Name="EarthBT" Source="https://i.imgur.com/uqH2gNq.png" Grid.Column="2" Grid.Row="0" />
 
 
 
 
               <!--Mars-->
-            <Image Source="https://i.imgur.com/vTayPpF.png" Grid.Column="0" Grid.Row="1" />
+            <Image x:Name="MarsBT" Source="https://i.imgur.com/vTayPpF.png" Grid.Column="0" Grid.Row="1" />
               <!--Jupiter-->
-            <Image Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" />
+            <Image x:Name="JupiterBT" Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" />
               <!--Saturn-->
-            <Image Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" />
+            <Image x:Name="SaturnBT" Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" />
 
 
 
 
               <!--Uranus-->
-            <Image Source="https://i.imgur.com/mWV5UAG.png" Grid.Column="0" Grid.Row="2" />
+            <Image x:Name="UranusBT" Source="https://i.imgur.com/mWV5UAG.png" Grid.Column="0" Grid.Row="2" />
               <!--Neptune-->
-            <Image Source="https://i.imgur.com/7kxXDLm.png" Grid.Column="1" Grid.Row="2" />
-       s       <!--More Button/Image-->
-            <Image Source="https://i.imgur.com/OqVhArZ.png" Grid.Column="2" Grid.Row="2" />
-
-
-
-
-
-
-
-
-
+            <Image x:Name="NeptuneBT" Source="https://i.imgur.com/7kxXDLm.png" Grid.Column="1" Grid.Row="2" />
+              <!--More Button/Image-->
+            <Image x:Name="MoreBT" Source="https://i.imgur.com/OqVhArZ.png" Grid.Column="2" Grid.Row="2" />
 
 
 
@@ -92,11 +89,7 @@
             </Grid>
 
 
-
-
-
         </StackLayout>
 
-
-
-    </ContentPage>
+    </ContentPage.Content>
+</ContentPage>

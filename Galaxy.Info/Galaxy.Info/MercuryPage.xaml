@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Galaxy.Info.MercuryPage"
+             BackgroundColor="Black" >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+            
+                <Label Text="Mercury"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="24" TextColor="CadetBlue" />
+
+                <Label Text="Diameter: 4,879 km"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+
+                <Label Text="Mass:	3.30 x 10^23 kg (5.5% Earth)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+                <Label Text="Moons:	None"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+                <Label Text="Moons:	None"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+
+                <Label Text="Orbit Distance: 57,909,227 km (0.39 AU)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Image Source="https://i.imgur.com/QeOTC6i.jpg" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+
+                <Button Text="Go Back To Main Page" x:Name="BackBt" Clicked="BackBt_Clicked"/>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

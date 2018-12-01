@@ -12,14 +12,18 @@ namespace Galaxy.Info
         public MainPage()
         {
             InitializeComponent();
-
-           
-
-
+            
         }
 
         private void ToolbarItem_Activated(object sender, EventArgs e)
         {
 
         }
-    }}
+
+        private void MercuryTapped(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new MercuryPage();
+
+        }
+    }
+}
