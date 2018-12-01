@@ -52,12 +52,13 @@
 
                 <Label Text="Mercury Size Compared to Earth" VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="DeepSkyBlue" />
-
+                   
+                <!--Adding in Size Comparison Image-->
                 <Image Source="https://i.imgur.com/203UGFq.png" Aspect="AspectFit"></Image>
-
+                  <!--Adding a Button that Will attach to a Wiki Link-->
                 <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
-
+                 <!--Button to go back to the Main Page-->
                 <Button Text="Go Back To Main Page"  x:Name="BackBt" Clicked="BackBt_Clicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue"
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
                 
