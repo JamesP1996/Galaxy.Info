@@ -1,72 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Galaxy.Info.MercuryPage"
-             BackgroundColor="Black" >
+             x:Class="Galaxy.Info.VenusPage"
+             BackgroundColor="Black">
     <ContentPage.Content>
-        <ScrollView Orientation="Vertical">
-            <StackLayout Orientation="Vertical">
-
-               
-
-                <!--Title-->
-                <Label Text="Mercury"
+        <ScrollView>
+        <StackLayout>
+            <!--Title-->
+            <Label Text="Venus"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
-                <!--Mercury Image-->
-                <Image Source="https://i.imgur.com/QeOTC6i.jpg" 
+            <!--Venus Image-->
+                <Image Source="https://i.imgur.com/Yr359cB.png" 
                        Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
-                
-                <!--Below are all different facts about Mercury-->
-                <Label Text="Diameter: 4,879 km"
+
+            <!--Below are all different facts about Venus-->
+            
+                <Label Text="Diameter: 12,104 km"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
 
-                <Label Text="Mass:	3.30 x 10^23 kg (5.5% Earth)"
+                <Label Text="Mass:	4.87 x 10^24 kg (81.5% Earth)"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
 
-                <Label Text="Moons:	None"
+            <Label Text="Moons:	None"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
 
-                <Label Text="Orbit Distance: 57,909,227 km (0.39 AU)"
+                <Label Text="Orbit Distance: 108,209,475 km (0.73 AU)"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Orbit Period:	88 days"
+                <Label Text="Orbit Period:	225 days"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Surface Temperature: -173 to 427°C"
+                <Label Text="Surface Temperature: 462 °C"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="First Record: 14th century BC"
+                <Label Text="First Record: 	17th century BC"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Recorded By: Assyrian astronomers"
+                <Label Text="Recorded By: Babylonian astronomers"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-
-                <Label Text="Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight.For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit,the next will occur on the 9th May 2016."
+                <Label Text="Venus is the second planet from the Sun and is the second brightest object in the night sky after the Moon.Named after the Roman goddess of love and beauty, Venus is the second largest terrestrial planet and is sometimes referred to as the Earth's sister planet due the their similar size and mass.The surface of the planet is obscured by an opaque layer of clouds made up of sulphuric acid."
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
 
-                <Label Text="Mercury Size Compared to Earth" VerticalOptions="StartAndExpand" 
+                <Label Text="Venus Size Compared to Earth" VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="DeepSkyBlue" />
-                   
-                <!--Adding in Size Comparison Image-->
-                <Image Source="https://i.imgur.com/203UGFq.png" Aspect="AspectFit"></Image>
-                  <!--Adding a Button that Will attach to a Wiki Link-->
+
+            <!--Adding in Size Comparison Image-->
+                <Image Source="https://i.imgur.com/D764i16.png" Aspect="AspectFit"></Image>
+            <!--Adding a Button that Will attach to a Wiki Link-->
                 <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
-                 <!--Button to go back to the Main Page-->
-                <Button Text="Go Back To Main Page"  x:Name="BackBt" Clicked="BackBt_Clicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue"
-                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
-                
+            <!--Adding a Seperate Back Button-->
+                <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -25,5 +25,16 @@ namespace Galaxy.Info
             App.Current.MainPage = new MercuryPage();
 
         }
+
+        private void VenusTapped(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new VenusPage();
+        }
+
+        private void EarthTapped(object sender,EventArgs e)
+        {
+            App.Current.MainPage = new EarthPage();
+
+        }
     }
 }

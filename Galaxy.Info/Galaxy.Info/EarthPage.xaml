@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Galaxy.Info.EarthPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+      <ScrollView>
+        <StackLayout>
+            
+            <!--Title-->
+            <Label Text="Earth - Age: 4.543B Years"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
+            <!--Earth Image-->
+            <Image Source="https://i.imgur.com/BMRdqbJ.png" 
+                       Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+
+            <!--Below are all different facts about Earth-->
+            <Label Text="Earth is the only planet in our solar system that is not named after a Greek or Roman Diety"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+
+            <Label Text="Equatorial Diameter: 12,756 km"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+            <Label Text="Polar Diameter: 12,714 km"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+            <Label Text="Mass: 5.97 x 10^24 kg"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+            <Label Text="Moons : 1"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+            <Label Text="Orbit Distance: 149,598,262 km (1 AU)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+            <Label Text="Orbit Period: 365.24 days"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+            <Label Text="Surface Temperature: -88 to 58°C"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+           
+            <!--Adding a Button that Will attach to a Wiki Link-->
+            <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+            <!--Adding a Seperate Back Button-->
+            <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+
+
+
+        </StackLayout>
+      </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
