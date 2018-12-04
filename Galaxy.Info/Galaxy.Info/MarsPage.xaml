@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Galaxy.Info.MarsPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <!--Title-->
+                <Label Text="Mars"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
+                <!--Mars Image-->
+                <Image Source="https://i.imgur.com/N8FkFGc.jpg" 
+                       Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+
+                <!--Below are all different facts about Mars-->
+                <Label Text="Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the Red Planet due to its reddish appearance. Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide."
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+
+                <Label Text="Equatorial Diameter: 6,792 km"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+                <Label Text="Polar Diameter: 6,752 km"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+                <Label Text="Mass: 6.42 x 10^23 kg (10.7% Earth)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Moons : 2 (Phobos + Deimos)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Orbit Distance: 227,943,824 km (1.52 AU)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Orbit Period: 687 days(1.9 years)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Surface Temperature: -153 to 20 °C"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="First Record:	2nd millennium BC"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Recorded By: Egyptian astronomers"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Mars Size Compared to Earth" VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="OrangeRed" />
+                
+                <!--Adding in Size Comparison Image-->
+                <Image  Source="https://i.imgur.com/LP3sSpo.png" Aspect="AspectFit"></Image>
+                <!--Adding a Button that Will attach to a Wiki Link-->
+                <Button Text="More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue"
+                        VerticalOptions ="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+                <!--Adding a Seperate Back Button-->
+                <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

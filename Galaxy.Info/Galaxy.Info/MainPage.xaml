@@ -78,10 +78,20 @@
 
 
                 <!--Mars-->
-            <Image x:Name="MarsBT" Source="https://i.imgur.com/vTayPpF.png" Grid.Column="0" Grid.Row="1" />
-              <!--Jupiter-->
-            <Image x:Name="JupiterBT" Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" />
-              <!--Saturn-->
+                <Image x:Name="MarsBT"  Source="https://i.imgur.com/vTayPpF.png" Grid.Column="0" Grid.Row="1" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="MarsTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <!--Jupiter-->
+            <Image x:Name="JupiterBT" Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="JupiterTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <!--Saturn-->
             <Image x:Name="SaturnBT" Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" />
 
 

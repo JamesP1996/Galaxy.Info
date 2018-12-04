@@ -36,5 +36,15 @@ namespace Galaxy.Info
             App.Current.MainPage = new EarthPage();
 
         }
+
+        private void MarsTapped(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new MarsPage();
+        }
+
+        private void JupiterTapped(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new JupiterPage();
+        }
     }
 }

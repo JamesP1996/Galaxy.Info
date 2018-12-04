@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Galaxy.Info.JupiterPage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+                <!--Title-->
+                <Label Text="Jupiter"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
+                <!--Mars Image-->
+                <Image Source="https://i.imgur.com/aJC6pYS.png" 
+                       Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+
+                <!--Below are all different facts about Mars-->
+                <Label Text="The planet Jupiter is the fifth planet out from the Sun, and is two and a half times more massive than all the other planets in the solar system combined. It is made primarily of gases and is therefore known as a gas giant."
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+
+                <Label Text="Equatorial Diameter: 142,984 km"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+                <Label Text="Polar Diameter: 133,709 km"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+
+                <Label Text="1.90 × 10^27 kg (318 Earths)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Moons: 79 (Io, Europa, Ganymede ,Callisto)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Rings: 4"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Orbit Distance: 778,340,821 km (5.20 AU)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Orbit Period: 4,333 days (11.9 years)"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Surface Temperature: -148 °C"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="First Record:	7th or 8th century BC"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Recorded By: Babylonian astronomers"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <Label Text="Jupiter Size Compared to Earth" VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="DeepSkyBlue" />
+
+                <!--Adding in Size Comparison Image-->
+                <Image  Source="https://i.imgur.com/FpCoiYS.png" Aspect="AspectFit"></Image>
+                <!--Adding a Button that Will attach to a Wiki Link-->
+                <Button Text="More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue"
+                        VerticalOptions ="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+                <!--Adding a Seperate Back Button-->
+                <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
