@@ -10,9 +10,9 @@
             <!--Title-->
             <Label Text="Earth - Age: 4.543B Years"
                 VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
+                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="LawnGreen" FontAttributes="Bold"/>
             <!--Earth Image-->
-            <Image Source="https://i.imgur.com/BMRdqbJ.png" 
+                <Image Source="https://i.imgur.com/Ed4bLTj.png" 
                        Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
 
             <!--Below are all different facts about Earth-->
@@ -50,10 +50,10 @@
 
            
             <!--Adding a Button that Will attach to a Wiki Link-->
-            <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="LawnGreen" BorderColor="DeepSkyBlue" 
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
             <!--Adding a Seperate Back Button-->
-            <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="LawnGreen" BorderColor="DeepSkyBlue" 
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
 
 

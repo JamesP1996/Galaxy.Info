@@ -11,7 +11,7 @@
         <!--Setting up Stack Layout to put Grid into-->
         <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
                 <!--Adding a Top Image above the Grid-->
-            <Image Aspect="Fill" Source="http://www.seasky.org/solar-system/assets/animations/solar_system_menu.jpg" x:Name="MainPageIMG" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" ></Image>
+            <Image Aspect="Fill" Source="https://i.imgur.com/kEPNmfI.jpg" x:Name="MainPageIMG" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" ></Image>
                 <!--Creating the Overall Grid-->
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
@@ -84,6 +84,7 @@
                             Tapped="MarsTapped" />
                     </Image.GestureRecognizers>
                 </Image>
+            
                 <!--Jupiter-->
             <Image x:Name="JupiterBT" Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" >
                     <Image.GestureRecognizers>
@@ -91,18 +92,39 @@
                             Tapped="JupiterTapped" />
                     </Image.GestureRecognizers>
                 </Image>
+            
                 <!--Saturn-->
-            <Image x:Name="SaturnBT" Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" />
+            <Image x:Name="SaturnBT" Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="SaturnTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
 
 
-
-
-              <!--Uranus-->
-            <Image x:Name="UranusBT" Source="https://i.imgur.com/mWV5UAG.png" Grid.Column="0" Grid.Row="2" />
-              <!--Neptune-->
-            <Image x:Name="NeptuneBT" Source="https://i.imgur.com/7kxXDLm.png" Grid.Column="1" Grid.Row="2" />
-              <!--More Button/Image-->
-            <Image x:Name="MoreBT" Source="https://i.imgur.com/OqVhArZ.png" Grid.Column="2" Grid.Row="2" />
+                <!--Uranus-->
+            <Image x:Name="UranusBT" Source="https://i.imgur.com/mWV5UAG.png" Grid.Column="0" Grid.Row="2" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="UranusTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            
+                <!--Neptune-->
+            <Image x:Name="NeptuneBT" Source="https://i.imgur.com/7kxXDLm.png" Grid.Column="1" Grid.Row="2" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="NeptuneTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
+            
+                <!--More Button/Image-->
+                <Image x:Name="MoreBT" Source="https://i.imgur.com/OqVhArZ.png" Grid.Column="2" Grid.Row="2" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="MoreTapped" />
+                    </Image.GestureRecognizers>
+                </Image>
 
 
 

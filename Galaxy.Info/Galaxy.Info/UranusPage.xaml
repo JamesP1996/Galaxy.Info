@@ -1,70 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Galaxy.Info.JupiterPage"
+             x:Class="Galaxy.Info.UranusPage"
              BackgroundColor="Black">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
 
                 <!--Title-->
-                <Label Text="Jupiter"
+                <Label Text="Uranus"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
-                <!--Jupiter Image-->
-                <Image Source="https://i.imgur.com/aJC6pYS.png" 
+                <!--Uranus Image-->
+                <Image Source="https://i.imgur.com/qzY4l7k.jpg" 
                        Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
 
                 <!--Below are all different facts about Mars-->
-                <Label Text="The planet Jupiter is the fifth planet out from the Sun, and is two and a half times more massive than all the other planets in the solar system combined. It is made primarily of gases and is therefore known as a gas giant."
+                <Label Text="Uranus is the seventh planet from the Sun. While being visible to the naked eye, it was not recognised as a planet due to its dimness and slow orbit. Uranus became the first planet discovered with the use of a telescope. Uranus is tipped over on its side with an axial tilt of 98 degrees. It is often described as rolling around the Sun on its side."
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
 
-                <Label Text="Equatorial Diameter: 142,984 km"
+                <Label Text="Equatorial Diameter: 51,118 km"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
 
-                <Label Text="Polar Diameter: 133,709 km"
+                <Label Text="Polar Diameter: 49,946 km"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
 
-                <Label Text="Mass: 1.90 × 10^27 kg (318 Earths)"
+                <Label Text="Mass: 8.68 × 10^25 kg (15 Earths)"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Moons: 79 (Io, Europa, Ganymede ,Callisto)"
+                <Label Text="27 Moons (Miranda, Titania, Ariel, Umbriel , Oberon)"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Rings: 4"
+                <Label Text="Rings: 13"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Orbit Distance: 778,340,821 km (5.20 AU)"
+                <Label Text="Orbit Distance: 2,870,658,186 km (19.19 AU)"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Orbit Period: 4,333 days (11.9 years)"
+                <Label Text="Orbit Period: 30,687 days (84.0 years)"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Surface Temperature: -148 °C"
+                <Label Text="Effective Temperature:	-216 °C"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="First Record:	7th or 8th century BC"
+                <Label Text="Discovery Date: March 13th 1781"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Recorded By: Babylonian astronomers"
+                <Label Text="Discovered By: William Herschel"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Jupiter Size Compared to Earth" VerticalOptions="StartAndExpand" 
+                <Label Text="Uranus Size Compared to Earth" VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="DeepSkyBlue" />
 
                 <!--Adding in Size Comparison Image-->
-                <Image  Source="https://i.imgur.com/FpCoiYS.png" Aspect="AspectFit"></Image>
+                <Image  Source="https://i.imgur.com/PSoqviI.png" Aspect="AspectFit"></Image>
                 <!--Adding a Button that Will attach to a Wiki Link-->
                 <Button Text="More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue"
                         VerticalOptions ="StartAndExpand" HorizontalOptions="CenterAndExpand" />

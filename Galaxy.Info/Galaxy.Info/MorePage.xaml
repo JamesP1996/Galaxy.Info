@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Galaxy.Info.MorePage"
+             BackgroundColor="Black">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+
+
+                <Label Text="Our Moon:" FontSize="Large" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
+                <Image Source="https://i.imgur.com/rRWFxB9.png" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+                <Label Text="The Moon (or Luna) is the Earth's only natural satellite and was formed 4.6 billion years ago around some 30–50 million years after the formation of the solar system. The Moon is in synchronous rotation with Earth meaning the same side is always facing the Earth. The first unmanned mission to the Moon was in 1959 by the Soviet Lunar Program with the first manned landing being Apollo 11 in 1969." TextColor="White" />
+                <Label Text="Moon Size Compared to Earth" TextColor="DeepSkyBlue" FontAttributes="Bold" />
+                <Image Source="https://i.imgur.com/GQHJ0pL.png" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+
+                <Label Text="Our Sun:" FontSize="Large" TextColor="Yellow" FontAttributes="Bold"/>
+                <Image Source="https://i.imgur.com/VR88qJd.jpg" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+                <Label Text="The Sun (or Sol), is the star at the centre of our solar system and is responsible for the Earth's climate and weather. The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 x that of the Earth) of which 20–25% is the core." TextColor="White"/>
+                <Label Text="Size Compared to Our Whole Solar System" TextColor="Yellow" FontAttributes="Bold"/>
+                <Image Source="https://i.imgur.com/SOYoMYt.png" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
+
+
+
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
