@@ -10,9 +10,15 @@
     <ContentPage.Content>
         <!--Setting up Stack Layout to put Grid into-->
         <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
-                <!--Adding a Top Image above the Grid-->
+        
+            <!--Adding UserName Functionality-->
+            <Label x:Name="usr" Text="Hello Astronomer" TextColor="DeepSkyBlue" FontSize="Default" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"></Label>
+                
+            <!--Adding a Top Image above the Grid-->
             <Image Aspect="Fill" Source="https://i.imgur.com/kdBlFtD.png" x:Name="MainPageIMG" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" ></Image>
-                <!--Creating the Overall Grid-->
+            
+            
+            <!--Creating the Overall Grid-->
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
 

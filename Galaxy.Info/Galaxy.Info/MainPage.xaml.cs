@@ -4,26 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.IO;
+
 
 namespace Galaxy.Info
 {
+   
     public partial class MainPage : ContentPage
     {
+        public string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
+        
+
         public MainPage()
         {
             InitializeComponent();
-            
-            
-        }
+        string filename = Path.Combine(path, "UserName.txt");
 
-        
 
-        private void ToolbarItem_Activated(object sender, EventArgs e)
-        {
 
-        }
 
-        private void MercuryTapped(object sender, EventArgs e)
+    }
+
+
+
+
+    private void MercuryTapped(object sender, EventArgs e)
         {
             App.Current.MainPage = new MercuryPage();
 
