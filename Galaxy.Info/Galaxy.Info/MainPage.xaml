@@ -8,137 +8,145 @@
 
 
     <ContentPage.Content>
-        <!--Setting up Stack Layout to put Grid into-->
-        <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
-        
-            <!--Adding UserName Functionality-->
-            <Label x:Name="usr" Text="Hello Astronomer" TextColor="DeepSkyBlue" FontSize="Default" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"></Label>
+        <ScrollView>
+            <!--Setting up Stack Layout to put Grid into-->
+            <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
                 
-            <!--Adding a Top Image above the Grid-->
-            <Image Aspect="Fill" Source="https://i.imgur.com/kdBlFtD.png" x:Name="MainPageIMG" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" ></Image>
-            
-            
-            <!--Creating the Overall Grid-->
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <!--Setting up UserName Label-->
+                <Label Text="" x:Name="UsrName" FontAttributes="Bold" TextColor="DeepSkyBlue" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+                
+                <!--Adding a Top Image above the Grid-->
+                <Image Aspect="Fill" Source="https://i.imgur.com/kdBlFtD.png" x:Name="MainPageIMG" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" ></Image>
+
+                
+                <!--Creating the Overall Grid-->
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
 
 
 
 
 
-                <!--Creating Rows in the Grid-->
-                <Grid.RowDefinitions>
+                    <!--Creating Rows in the Grid-->
+                    <Grid.RowDefinitions>
 
-                    <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
 
-                    <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
 
-                    <RowDefinition Height="2*"/>
-
-
-
-                </Grid.RowDefinitions>
-
-
-                <!--Creating Colums in the Grid-->
-                <Grid.ColumnDefinitions>
-
-                    <ColumnDefinition Width="2*"/>
-
-                    <ColumnDefinition Width="2*"/>
-
-                    <ColumnDefinition Width="2*"/>
+                        <RowDefinition Height="2*"/>
 
 
 
+                    </Grid.RowDefinitions>
 
 
-                </Grid.ColumnDefinitions>
+                    <!--Creating Colums in the Grid-->
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="2*"/>
+
+                        <ColumnDefinition Width="2*"/>
+
+                        <ColumnDefinition Width="2*"/>
 
 
-              <!--Mercury-->
-            <Image x:Name="MercuryBT"  Source="https://i.imgur.com/38kL4m7.png" Grid.Column="0" Grid.Row="0">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer
+
+
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <!--Mercury-->
+                    <Image x:Name="MercuryBT"  Source="https://i.imgur.com/38kL4m7.png" Grid.Column="0" Grid.Row="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
                         Tapped="MercuryTapped" />
-                     </Image.GestureRecognizers>
-            </Image>
+                        </Image.GestureRecognizers>
+                    </Image>
 
                     <!--Venus-->
-                <Image x:Name="VenusBT" Source="https://i.imgur.com/HE7aQh7.png" Grid.Column="1" Grid.Row="0" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer 
+                    <Image x:Name="VenusBT" Source="https://i.imgur.com/HE7aQh7.png" Grid.Column="1" Grid.Row="0" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer 
                             Tapped="VenusTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
-                
-                <!--Earth-->
-                <Image x:Name="EarthBT" Source="https://i.imgur.com/uqH2gNq.png" Grid.Column="2" Grid.Row="0">
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer 
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <!--Earth-->
+                    <Image x:Name="EarthBT" Source="https://i.imgur.com/uqH2gNq.png" Grid.Column="2" Grid.Row="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer 
                             Tapped="EarthTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
+                        </Image.GestureRecognizers>
+                    </Image>
 
 
 
 
-                <!--Mars-->
-                <Image x:Name="MarsBT"  Source="https://i.imgur.com/vTayPpF.png" Grid.Column="0" Grid.Row="1" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
+                    <!--Mars-->
+                    <Image x:Name="MarsBT"  Source="https://i.imgur.com/vTayPpF.png" Grid.Column="0" Grid.Row="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
                             Tapped="MarsTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
-            
-                <!--Jupiter-->
-            <Image x:Name="JupiterBT" Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <!--Jupiter-->
+                    <Image x:Name="JupiterBT" Source="https://i.imgur.com/aQOaLIr.png" Grid.Column="1" Grid.Row="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
                             Tapped="JupiterTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
-            
-                <!--Saturn-->
-            <Image x:Name="SaturnBT" Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <!--Saturn-->
+                    <Image x:Name="SaturnBT" Source="https://i.imgur.com/suXZfsx.png" Grid.Column="2" Grid.Row="1" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
                             Tapped="SaturnTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
+                        </Image.GestureRecognizers>
+                    </Image>
 
 
-                <!--Uranus-->
-            <Image x:Name="UranusBT" Source="https://i.imgur.com/mWV5UAG.png" Grid.Column="0" Grid.Row="2" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
+                    <!--Uranus-->
+                    <Image x:Name="UranusBT" Source="https://i.imgur.com/mWV5UAG.png" Grid.Column="0" Grid.Row="2" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
                             Tapped="UranusTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
-            
-                <!--Neptune-->
-            <Image x:Name="NeptuneBT" Source="https://i.imgur.com/7kxXDLm.png" Grid.Column="1" Grid.Row="2" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <!--Neptune-->
+                    <Image x:Name="NeptuneBT" Source="https://i.imgur.com/7kxXDLm.png" Grid.Column="1" Grid.Row="2" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
                             Tapped="NeptuneTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
-            
-                <!--More Button/Image-->
-                <Image x:Name="MoreBT" Source="https://i.imgur.com/OqVhArZ.png" Grid.Column="2" Grid.Row="2" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <!--More Button/Image-->
+                    <Image x:Name="MoreBT" Source="https://i.imgur.com/OqVhArZ.png" Grid.Column="2" Grid.Row="2" >
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
                             Tapped="MoreTapped" />
-                    </Image.GestureRecognizers>
-                </Image>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    
+                    
 
 
 
 
-            </Grid>
+                </Grid>
+
+                <Label Text="Whats your Name?" />
+                <Entry Text="Enter your Name Here" x:Name="usrEntry" TextColor="OrangeRed"  />
+                <Button Text="Save" x:Name="SaveBt" BorderColor="DeepSkyBlue" TextColor="DeepSkyBlue" Clicked="SaveBt_Clicked" BackgroundColor="Black"/>
 
 
-        </StackLayout>
 
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -52,9 +52,7 @@
             <!--Adding a Button that Will attach to a Wiki Link-->
                 <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="LawnGreen" BorderColor="DeepSkyBlue" 
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
-            <!--Adding a Seperate Back Button-->
-                <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="LawnGreen" BorderColor="DeepSkyBlue" 
-                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+           
 
 
 

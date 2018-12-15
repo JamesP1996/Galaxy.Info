@@ -22,16 +22,7 @@ namespace Galaxy.Info
             Device.OpenUri(new Uri(url));
         }
 
-        protected override bool OnBackButtonPressed()
-        {
-            App.Current.MainPage = new MainPage();
-            return base.OnBackButtonPressed();
-        }
-        private void BackButtonClicked(object sender, EventArgs e)
-        {
-
-            App.Current.MainPage = new MainPage();
-
-        }
+        
+        
     }
 }

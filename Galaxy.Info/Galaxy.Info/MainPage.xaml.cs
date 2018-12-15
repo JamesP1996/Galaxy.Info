@@ -12,14 +12,28 @@ namespace Galaxy.Info
    
     public partial class MainPage : ContentPage
     {
-        public string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
-        
+       
+     
 
         public MainPage()
         {
             InitializeComponent();
-        string filename = Path.Combine(path, "UserName.txt");
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
+            string filename = Path.Combine(path, "name.txt");
+            if (!File.Exists(filename))
+            {
+                File.Create(filename).Dispose();
+            }
+            else
+            {
+                using (var streamReader = new StreamReader(filename))
+                {
+                    string content = streamReader.ReadToEnd();
+                    System.Diagnostics.Debug.WriteLine(content);
+                    UsrName.Text = ("Welcome to Galaxy.io " + content); 
 
+                }
+            }
 
 
 
@@ -28,51 +42,74 @@ namespace Galaxy.Info
 
 
 
-    private void MercuryTapped(object sender, EventArgs e)
+     async void MercuryTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new MercuryPage();
+            await Navigation.PushAsync(new MercuryPage());
 
         }
 
-        private void VenusTapped(object sender, EventArgs e)
+     async void VenusTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new VenusPage();
+            await Navigation.PushAsync(new VenusPage());
         }
 
-        private void EarthTapped(object sender,EventArgs e)
+     async void EarthTapped(object sender,EventArgs e)
         {
-            App.Current.MainPage = new EarthPage();
+            await Navigation.PushAsync(new EarthPage());
+            
 
         }
 
-        private void MarsTapped(object sender, EventArgs e)
+     async void MarsTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new MarsPage();
+            await Navigation.PushAsync(new MarsPage());
         }
 
-        private void JupiterTapped(object sender, EventArgs e)
+     async void JupiterTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new JupiterPage();
+            await Navigation.PushAsync(new JupiterPage());
         }
 
-        private void SaturnTapped(object sender, EventArgs e)
+      async void SaturnTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new SaturnPage();
+            await Navigation.PushAsync(new SaturnPage());
         }
 
-        private void UranusTapped(object sender, EventArgs e)
+       async void UranusTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new UranusPage();
+            await Navigation.PushAsync(new UranusPage());
         }
 
-        private void NeptuneTapped(object sender, EventArgs e)
+       async void NeptuneTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new NeptunePage();
+            await Navigation.PushAsync(new NeptunePage());
         }
 
-        private void MoreTapped(object sender, EventArgs e)
+        async void MoreTapped(object sender, EventArgs e)
         {
-            App.Current.MainPage = new MorePage();
+            await Navigation.PushAsync(new MorePage());
+        }
+            public string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
+
+        private void SaveBt_Clicked(object sender, EventArgs e)
+        {
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
+            string filename = Path.Combine(path, "name.txt");
+
+
+            using (var streamWriter = new StreamWriter(filename))
+            {
+                streamWriter.WriteLine(usrEntry.Text);
+                streamWriter.Close();
+            }
+
+            using (var streamReader = new StreamReader(filename))
+            {
+                string content = streamReader.ReadToEnd();
+                System.Diagnostics.Debug.WriteLine(content);
+                UsrName.Text =("Welcome to Galaxy.io " + content);
+
+            }
         }
     }
 }

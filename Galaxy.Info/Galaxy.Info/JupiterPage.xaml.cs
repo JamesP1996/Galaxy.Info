@@ -24,16 +24,9 @@ namespace Galaxy.Info
         }
 
 
-        protected override bool OnBackButtonPressed()
-        {
-            App.Current.MainPage = new MainPage();
-            return base.OnBackButtonPressed();
-        }
-        private void BackButtonClicked(object sender, EventArgs e)
-        {
 
-            App.Current.MainPage = new MainPage();
 
-        }
+
     }
+
 }

@@ -68,9 +68,7 @@
                 <!--Adding a Button that Will attach to a Wiki Link-->
                 <Button Text="More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue"
                         VerticalOptions ="StartAndExpand" HorizontalOptions="CenterAndExpand" />
-                <!--Adding a Seperate Back Button-->
-                <Button Text="Go Back to Main Page" Clicked="BackButtonClicked" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
-                        VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
+                
 
 
 

@@ -20,12 +20,9 @@
                 <Label Text="Size Compared to Our Whole Solar System" TextColor="Yellow" FontAttributes="Bold"/>
                 <Image Source="https://i.imgur.com/SOYoMYt.png" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
 
-                <StackLayout Margin="20,20" Orientation="Vertical" HorizontalOptions="CenterAndExpand" >
+                
 
-                    <Label Text="Enter a Username For Your Self" FontSize="Medium" FontAttributes="Bold" TextColor="OrangeRed"></Label>
-                    <Entry Text="Enter Here" x:Name="userN" HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="20" />
-                    <Button FontSize="Medium" Text="Apply" x:Name="ApplyUserName" TextColor="DeepSkyBlue" HorizontalOptions="CenterAndExpand" BorderColor="DeepSkyBlue" Clicked="ApplyUserName_Clicked" />
-                </StackLayout>
+                
 
                 
 

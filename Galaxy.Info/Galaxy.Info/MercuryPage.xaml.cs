@@ -21,18 +21,7 @@ namespace Galaxy.Info
 			InitializeComponent ();
 		}
 
-        protected override bool OnBackButtonPressed()
-        {
-            App.Current.MainPage = new MainPage();
-            return base.OnBackButtonPressed();
-        }
-
-        private void BackBt_Clicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new MainPage();
-        }
-
-
+       
         private void FindMoreInfoBT(object sender, EventArgs e)
         {
 
