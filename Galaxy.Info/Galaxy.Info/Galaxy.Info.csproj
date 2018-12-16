@@ -6,6 +6,12 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
+    <ApplicationIcon>appicon_Wm5_icon.ico</ApplicationIcon>
+    <Authors>James Porter</Authors>
+    <Company>GMIT - Software Development</Company>
+    <Description>A application that gives information on our Solar System in a streamlined way.</Description>
+    <Copyright>James Porter and GMIT</Copyright>
+    <PackageTags>Space,Solar System, Galaxy</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>pdbonly</DebugType>
@@ -22,6 +28,11 @@
   <ItemGroup>
     <Compile Update="MarsPage.xaml.cs">
       <DependentUpon>MarsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -42,6 +53,10 @@
     </EmbeddedResource>
     <EmbeddedResource Update="NeptunePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="SaturnPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
