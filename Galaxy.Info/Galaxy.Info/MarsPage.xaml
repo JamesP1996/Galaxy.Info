@@ -10,7 +10,7 @@
                 <!--Title-->
                 <Label Text="Mars"
                 VerticalOptions="StartAndExpand" 
-                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="DeepSkyBlue" FontAttributes="Bold"/>
+                HorizontalOptions="CenterAndExpand" FontSize="30" TextColor="OrangeRed" FontAttributes="Bold"/>
                 <!--Mars Image-->
                 <Image Source="https://i.imgur.com/N8FkFGc.jpg" 
                        Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
@@ -20,41 +20,92 @@
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
 
-                <Label Text="Equatorial Diameter: 6,792 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
 
-                <Label Text="Polar Diameter: 6,752 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Equatorial Diameter: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="6,792 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Mass: 6.42 x 10^23 kg (10.7% Earth)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Polar Diameter: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="6,752 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Moons : 2 (Phobos + Deimos)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Mass: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="6.42 x 10^23 kg (10.7% Earth)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Orbit Distance: 227,943,824 km (1.52 AU)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="Orbit Period: 687 days(1.9 years)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Moons : "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="2 (Phobos + Deimos)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Surface Temperature: -153 to 20 °C"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-                <Label Text="First Record:	2nd millennium BC"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Distance: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="227,943,824 km (1.52 AU)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Recorded By: Egyptian astronomers"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Period: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="687 days(1.9 years)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Surface Temperature: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="-153 to 20 °C"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+
+
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="First Record:"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="2nd millennium BC"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Recorded By:"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="OrangeRed"  />
+                    <Label Text="Egyptian astronomers"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+
 
                 <Label Text="Mars Size Compared to Earth" VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="OrangeRed" />

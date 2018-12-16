@@ -20,33 +20,70 @@
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
 
-            <Label Text="Equatorial Diameter: 12,756 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Equatorial Diameter: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="LawnGreen"  />
+                    <Label Text="12,756 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-            <Label Text="Polar Diameter: 12,714 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Polar Diameter: 12,714 km "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="LawnGreen"  />
+                    <Label Text="12,756 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-            <Label Text="Mass: 5.97 x 10^24 kg"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Mass: 5.97 x 10^24 kg "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="LawnGreen"  />
+                    <Label Text="12,756 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-            <Label Text="Moons : 1"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
 
-            <Label Text="Orbit Distance: 149,598,262 km (1 AU)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Moons : 1"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="LawnGreen"  />
+                    <Label Text="12,756 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-            <Label Text="Orbit Period: 365.24 days"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Distance: 149,598,262 km (1 AU)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="LawnGreen"  />
+                    <Label Text="12,756 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-            <Label Text="Surface Temperature: -88 to 58°C"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Period: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="LawnGreen"  />
+                    <Label Text="365.24 days"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Surface Temperature: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="LawnGreen"  />
+                    <Label Text="-88 to 58°C"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+
 
            
             <!--Adding a Button that Will attach to a Wiki Link-->

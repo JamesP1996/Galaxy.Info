@@ -15,56 +15,108 @@
                 <Image Source="https://i.imgur.com/YZ7mwGE.png" 
                        Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
 
-                <!--Below are all different facts about Mars-->
+                <!--Below are all different facts about Saturn-->
+               
                 <Label Text="Saturn is the sixth planet from the Sun and the most distant that can be seen with the naked eye. Saturn is the second largest planet and is best known for its fabulous ring system that was first observed in 1610 by the astronomer Galileo Galilei. Like Jupiter, Saturn is a gas giant and is composed of similar gasses including hydrogen, helium and methane."
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
 
-                <Label Text="Equatorial Diameter: 120,536 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Equatorial Diameter: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="120,536 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Polar Diameter: 108,728 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Polar Diameter: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="108,728 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Mass: 5.68 × 10^26 kg (95 Earths)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Mass: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="5.68 × 10^26 kg (95 Earths)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="62 Moons (Titan, Enceladus, Iapetus , Rhea)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="62 Moons: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="(Titan, Enceladus, Iapetus , Rhea)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Rings: 30+ (7 Groups)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Rings: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="30+ (7 Groups)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Orbit Distance: 1,426,666,422 km (9.54 AU)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Distance: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="1,426,666,422 km (9.54 AU)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Orbit Period: 10,756 days (29.5 years)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Period: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="10,756 days (29.5 years)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Effective Temperature:	-178 °C"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Effective Temperature: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="-178 °C"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="First Record:	8th century BC"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="First Record: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="8th century BC"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Recorded By: Assyrians"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Recorded By: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="Assyrians"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
                 <Label Text="Saturn Size Compared to Earth" VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="DeepSkyBlue" />
 
                 <!--Adding in Size Comparison Image-->
-                <Image  Source="https://i.imgur.com/d0rDH0Y.png" Aspect="AspectFit"></Image>
+                <Image  Source="https://i.imgur.com/d0rDH0Y.png" Aspect="Fill"></Image>
                 <!--Adding a Button that Will attach to a Wiki Link-->
                 <Button Text="More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue"
                         VerticalOptions ="StartAndExpand" HorizontalOptions="CenterAndExpand" />

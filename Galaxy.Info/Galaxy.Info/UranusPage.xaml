@@ -15,56 +15,106 @@
                 <Image Source="https://i.imgur.com/qzY4l7k.jpg" 
                        Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
 
-                <!--Below are all different facts about Mars-->
+                <!--Below are all different facts about Uranus-->
                 <Label Text="Uranus is the seventh planet from the Sun. While being visible to the naked eye, it was not recognised as a planet due to its dimness and slow orbit. Uranus became the first planet discovered with the use of a telescope. Uranus is tipped over on its side with an axial tilt of 98 degrees. It is often described as rolling around the Sun on its side."
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
 
-                <Label Text="Equatorial Diameter: 51,118 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Equatorial Diameter: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="51,118 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Polar Diameter: 49,946 km"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White" />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Polar Diameter: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="49,946 km"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+                
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Mass: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="8.68 × 10^25 kg (15 Earths)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+                
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="27 Moons :"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="(Miranda, Titania, Ariel, Umbriel , Oberon)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+                
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Rings: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="13"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="Mass: 8.68 × 10^25 kg (15 Earths)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Distance: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="2,870,658,186 km (19.19 AU)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
-                <Label Text="27 Moons (Miranda, Titania, Ariel, Umbriel , Oberon)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
-
-                <Label Text="Rings: 13"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
-
-                <Label Text="Orbit Distance: 2,870,658,186 km (19.19 AU)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
-
-                <Label Text="Orbit Period: 30,687 days (84.0 years)"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
-
-                <Label Text="Effective Temperature:	-216 °C"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
-
-                <Label Text="Discovery Date: March 13th 1781"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
-
-                <Label Text="Discovered By: William Herschel"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"   />
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Orbit Period: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="30,687 days (84.0 years)"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+                
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Effective Temperature: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="-216 °C"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+                
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Discovery Date: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="March 13th 1781"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
+                
+                <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="0">
+                    <Label Text="Discovered By: "
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="DeepSkyBlue"  />
+                    <Label Text="William Herschel"
+                    VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" FontSize="20" TextColor="White"  />
+                </StackLayout>
 
                 <Label Text="Uranus Size Compared to Earth" VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" FontSize="20" TextColor="DeepSkyBlue" />
 
                 <!--Adding in Size Comparison Image-->
-                <Image  Source="https://i.imgur.com/PSoqviI.png" Aspect="AspectFit"></Image>
+                <Image  Source="https://i.imgur.com/PSoqviI.png" Aspect="Fill"></Image>
                 <!--Adding a Button that Will attach to a Wiki Link-->
                 <Button Text="More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue"
                         VerticalOptions ="StartAndExpand" HorizontalOptions="CenterAndExpand" />
