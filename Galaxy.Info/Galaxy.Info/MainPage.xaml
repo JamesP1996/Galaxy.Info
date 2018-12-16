@@ -140,9 +140,9 @@
 
                 </Grid>
 
-                <Label Text="Whats your Name?" />
+                
                 <Entry Text="Enter your Name Here" x:Name="usrEntry" TextColor="OrangeRed"  />
-                <Button Text="Save" x:Name="SaveBt" BorderColor="DeepSkyBlue" TextColor="DeepSkyBlue" Clicked="SaveBt_Clicked" BackgroundColor="Black"/>
+                <Button Text="Save Your Name" x:Name="SaveBt" BorderColor="DeepSkyBlue" TextColor="DeepSkyBlue" Clicked="SaveBt_Clicked" BackgroundColor="Black"/>
 
 
 

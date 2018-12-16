@@ -87,7 +87,7 @@
 
            
             <!--Adding a Button that Will attach to a Wiki Link-->
-                <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="LawnGreen" BorderColor="DeepSkyBlue" 
+                <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="LawnGreen" BorderColor="DeepSkyBlue" BackgroundColor="Black" 
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
            
 

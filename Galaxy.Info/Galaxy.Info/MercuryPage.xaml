@@ -104,7 +104,7 @@
                 <Image Source="https://i.imgur.com/203UGFq.png" Aspect="Fill" ></Image>
                 
                   <!--Adding a Button that Will attach to a Wiki Link-->
-                <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" 
+                <Button Text="Find More Info" Clicked="FindMoreInfoBT" TextColor="DeepSkyBlue" BorderColor="DeepSkyBlue" BackgroundColor="Black"     
                         VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" />
           
                 

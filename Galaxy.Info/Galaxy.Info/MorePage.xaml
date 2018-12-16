@@ -20,11 +20,29 @@
                 <Label Text="Size Compared to Our Whole Solar System" TextColor="Yellow" FontAttributes="Bold"/>
                 <Image Source="https://i.imgur.com/SOYoMYt.png" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand"/>
 
-                
+                <Label Text="Asteroids: " FontSize="Large" TextColor="SlateGray" FontAttributes="Bold"/>
+                <Image Source="https://i.imgur.com/uwuLQHr.png" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+                <Label Text="Asteroids are small, rocky objects that orbit the Sun. "  TextColor="White" />
+                <Label Text="The first asteroid was Ceres, discovered by Giuseppe Piazzi in 1801." TextColor="White" />
+                <Label Text="There are currently over 600,000 known asteroids in our solar system" TextColor="White" />
+                <Label Text="Most asteroids are found orbiting in the Asteroid Belt, a series of rings located between the orbits of Mars and Jupiter." TextColor="White" />
 
+               
+                <Label Text="Black Holes:" FontSize="Large" TextColor="MediumPurple" FontAttributes="Bold"/>
+                <Image Source="https://i.imgur.com/8XPppmP.png" Aspect="AspectFill" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+                <Label Text="Black holes are some of the strangest and most fascinating objects found in outer space. They are objects of extreme density, with such strong gravitational attraction that even light cannot escape from their grasp if it comes near enough."  TextColor="White" />
+                <Label Text="Albert Einstein first predicted black holes in 1916 with his general theory of relativity. The term (black hole) was coined in 1967 by American astronomer John Wheeler, and the first one was discovered in 1971."  TextColor="White" />
+                <Label Text="There are three types: stellar black holes, supermassive black holes and intermediate black holes." FontSize="Medium" TextColor="MediumPurple" FontAttributes="Bold"/>
                 
+                <Label Margin="0 , 100 , 0 , 50" TextColor="PaleVioletRed" Text="All Image's and Refences belong to their respective owners and photographers. All usage of this content within this application is for educational purposes only" FontSize="Micro" HorizontalOptions="StartAndExpand" />
+              
 
-                
+
+
+
+
+
+
 
 
 

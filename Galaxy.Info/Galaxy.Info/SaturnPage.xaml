@@ -118,7 +118,7 @@
                 <!--Adding in Size Comparison Image-->
                 <Image  Source="https://i.imgur.com/d0rDH0Y.png" Aspect="Fill"></Image>
                 <!--Adding a Button that Will attach to a Wiki Link-->
-                <Button Text="More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue"
+                <Button Text="Find More Info" Clicked="MoreInfoClicked" TextColor="DeepSkyBlue" BorderColor ="DeepSkyBlue" BackgroundColor="Black"
                         VerticalOptions ="StartAndExpand" HorizontalOptions="CenterAndExpand" />
                 
 
