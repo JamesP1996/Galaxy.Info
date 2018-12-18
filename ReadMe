@@ -1,0 +1,23 @@
+Galaxy.Info is a solar system educational app which was built using .Xaml and C# on the Visual Studio 2017 Xamarin Architecture.
+
+It uses many different pages to accomplish its goal.
+
+1. Main Page - This page holds buttons that you can click to go to the certain page you want to. eg.Saturn
+The main page is based off a simple to use IOS home kind of look. 
+I liked the idea of using big buttons for the users to go into each planet page.
+There is also a Added EntryBox and Button for Setting your Name on the top Label of the Main Page.
+
+2. Planet Pages.
+-Using mainly Labels,Images and Buttons I made each page hold it's respective Information on it's planet along with a button to view more
+information on a WikiPedia Page associated with the Planet you are currently clicked into.
+
+3. More Page
+This Page Holds Information on the Sun,Moon,Asteroids and Black Holes as they are very common to wander about and play a big part in our 
+solar system.
+
+All Images and Websites in the application were not created by me and were being used in this application for educational and learning purposes.
+If you find these Images and wish to show support, I encourage you to do so. 
+
+This Project was made for my Second Year First Semester Internet and Mobile Applications Class in GMIT Software Development Course.
+
+Thank you for Reading
